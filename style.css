@@ -1,0 +1,37 @@
+body {
+	background-color: grey;
+	color:white;
+	font: normal 16px Arial, Helvetica, sans-serif;
+}
+.container {
+    width:98%;
+    margin:auto;
+}
+
+.clr {
+    clear:both;
+}
+
+#image {
+    float:left;
+    width:40%;
+    box-sizing:border-box;
+    
+}
+#profile {
+    float:right;
+    width:60%;
+    padding:15px;
+    box-sizing:border-box;
+}
+.blocks h3{
+    color:red;
+}
+.blocks{
+    background-color: grey;
+	color: #fff;
+	border:3px red solid;
+	border-radius: 15px;
+	padding: 10px;
+	margin: 10px 0;
+}
