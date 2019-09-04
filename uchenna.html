@@ -10,20 +10,16 @@
 
 <body>
   <div class="container">
-      <div id="image">
+      <div id="profile">
         <p>
-          <img src="https://res.cloudinary.com/uchescloud/image/upload/v1566569520/StartNgFiles/photo_2019-08-23_15-08-06_nd5nsr.jpg" alt="Uchenna Okafor" width="200">
-        </p>
-      </div>
-    <div id="profile">
-        <h3>Uchenna Solomon Okafor</h3>
-          <p>54 ABAYOMI STREET,
-            <br>IKATE SURULERE, LAGOS, NIGERIA.
+          <img src="https://res.cloudinary.com/uchescloud/image/upload/v1566569520/StartNgFiles/photo_2019-08-23_15-08-06_nd5nsr.jpg" alt="My photo">
+          <h2>Uchenna Solomon Okafor</h2>
+          <p>54 ABAYOMI STREET, IKATE SURULERE, LAGOS, NIGERIA.
             <br><strong>(+234) 803 6446 102</strong>
             <br><strong>solo737373@gmail.com</strong>
           </p>
-    </div>
-    <div class="clr"></div>
+        </p>
+      </div>
     
     <div class="blocks">
         <h3>Skills</h3>
@@ -65,12 +61,42 @@
     </div>
   
   
-  <div class="blocks">
-      <h3>Awards</h3>
-    <p>Proficiency in Management (Nigerian Institute of Management).</p>
-  </div>
+    <div class="blocks">
+        <h3>Awards</h3>
+      <p>Proficiency in Management (Nigerian Institute of Management).</p>
+    </div>
+
+    <!--Form-->
+    <div class="blocks">
+      <h3>Contact Me</h3>
+      <form class="contact" action="https://www.enformed.io/het0hbt2" method="POST">
+        <div class="form-entry">
+          <label>Name</label>
+          <input type="text" name="Name" required minlength="4" placeholder="Enter your name">
+        </div>
+        <br>
+        <div class="form-entry">
+          <label>Email</label>
+          <input type="email" name="email" required placeholder="Enter your email">
+        </div>
+        <br>
+        <div class="form-entry">
+          <label>Title</label>
+          <input type="text" name="title" required placeholder="Subject">
+        </div>
+        <br>
+        
+        <div class="form-entry">
+          <label>Message</label>
+          <textarea name="message" minlength="20" required placeholder="write your message..."></textarea>
+        </div>
+        <br>
+        <input type="submit" name="submit" value="Send">
+      </form>
+    </div>
   
   </div>
+
 </body>
 
 </html>

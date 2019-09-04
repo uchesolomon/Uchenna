@@ -1,37 +1,54 @@
 body {
-	background-color: grey;
+	background-color: cornsilk;
 	color:white;
 	font: normal 16px Arial, Helvetica, sans-serif;
 }
 .container {
-    width:98%;
+    width:95%;
     margin:auto;
 }
 
-.clr {
-    clear:both;
+#profile img {
+    margin-left: auto;
+    margin-right: auto;
+    width:30%;
+    border-radius: 13px;    
 }
 
-#image {
-    float:left;
-    width:40%;
-    box-sizing:border-box;
-    
-}
 #profile {
-    float:right;
-    width:60%;
-    padding:15px;
-    box-sizing:border-box;
+    text-align: center;
+    color: black;
+
 }
+
 .blocks h3{
-    color:red;
+    color: cornsilk;
 }
 .blocks{
-    background-color: grey;
+    background-color: #26a69a;
 	color: #fff;
-	border:3px red solid;
+	border:10px #01554d;
 	border-radius: 15px;
 	padding: 10px;
 	margin: 10px 0;
+}
+.contact {
+    padding: 20px;
+}
+.contact .form-entry{
+    padding-bottom: 10px;
+}
+.contact label{
+    display: block;
+}
+.contact input[type="text"], [type="email"], .contact textarea{
+    padding: 8px;
+    width: 100%;
+}
+.contact input[type="submit"] {
+    background-color: rgb(223, 182, 17);
+    color: rgb(189, 8, 68);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
 }
