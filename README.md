@@ -1,6 +1,6 @@
 # Uchenna
  html resume
-https://camo.githubusercontent.com/1bfef7da342d1fdeff0a8648e636edab37af029f/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f69616d6265656a617961796f2f696d6167652f75706c6f61642f76313535343234303036362f6272616e642d6c6f676f2e706e67
+ 
 Resume Twitter post about Flutterwave.
 https://twitter.com/SolomonOkafor11/status/1165055054434492416?s=19
 
